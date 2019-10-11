@@ -19,4 +19,34 @@
     <servlet-name>StuServlet</servlet-name>
     <url-pattern>/StuServlet</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>StuServlet02</display-name>
+    <servlet-name>StuServlet02</servlet-name>
+    <servlet-class>cn.itcast.web.servlet01.StuServlet02</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StuServlet02</servlet-name>
+    <url-pattern>/StuServlet02</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>BaseSerlvet</display-name>
+    <servlet-name>BaseSerlvet</servlet-name>
+    <servlet-class>cn.itcast.web.servlet02.BaseSerlvet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BaseSerlvet</servlet-name>
+    <url-pattern>/BaseSerlvet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>StuServlet03</display-name>
+    <servlet-name>StuServlet03</servlet-name>
+    <servlet-class>cn.itcast.web.servlet02.StuServlet03</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StuServlet03</servlet-name>
+    <url-pattern>/StuServlet03</url-pattern>
+  </servlet-mapping>
 </web-app>
